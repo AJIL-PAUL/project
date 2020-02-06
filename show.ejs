@@ -14,15 +14,15 @@
         <img class="img-responsive" src="<%= animal.image %>" />
         <div class="caption-full">
           <h4><a><%=animal.name%></a></h4>
-          <p><%= animal.freed %></p>
-          <p><%= animal.disease %></p>
-          <p><%= animal.symptoms %></p>
-          <p><%= animal.no_of_days %></p>
-          <p><%= animal.village %></p>
-          <p><%= animal.district %></p>
-          <p><%= animal.state %></p>
-          <p><%= animal.medicine_used %></p>
-          <p><%= animal.medicine_type %></p>
+          <h4>Freed:</h4><p><%= animal.freed %></p>
+          <h4>Disease:</h4><p><%= animal.disease %></p>
+          <h4>Symptoms:</h4><p><%= animal.symptoms %></p>
+          <h4>No. of Days</h4><p><%= animal.no_of_days %></p>
+          <h4>Village</h4><p><%= animal.village %></p>
+          <h4>District</h4><p><%= animal.district %></p>
+          <h4>State</h4><p><%= animal.state %></p>
+          <h4>Medicine Used</h4><p><%= animal.medicine_used %></p>
+          <h4>Prefered by</h4><p><%= animal.medicine_type %></p>
           <p>
             <em>Submitted By <%= animal.author.username %></em>
           </p>
